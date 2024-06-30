@@ -1,0 +1,22 @@
+@mixin lg{
+    @media(max-width:866px){
+        @content;
+        
+    }
+}
+@mixin md{
+    @media(max-width:1024px){
+        @content;
+        
+    }
+}
+@mixin sm{
+    @media(max-width:738px){
+        @content;
+
+    }
+}
+
+
+
+// we have to make 3 screens therefore 3 layout whihc will be responsive
